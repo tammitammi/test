@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Furniture</title>
+  <style>
+    h1 {margin-left: 10px;}  /*왜 얘 옆에 h2 쓰면 이상해지지..*/
+    h2 {margin-left: 10px;}
+    #intro {
+      height: 450px; /* 얘 배경 색 크기네..아닌가 ^^;;?*/
+      background-color:rgba(255,0,0,0.5);
+      background-image:url(img/의자.jpg);
+      background-size:100%;
+      background-repeat: no-repeat;
+      background-blend-mode:overlay;
+      transition: background-color 5s; /*마우스가 빠져나갈 때 효과 주려면 여기다가도 써줘야함 */
+    }
+    #intro:hover{
+      background-color: hotpink;
+      transition: background-color 1s; /*마우스 갖다 댔을 때 효과주기*/
+    }
+  </style>
+</head>
+<body>
+  <h1>Tammi Lee</h1>
+  <h2>Furniture</h2>
+  <div id="intro"></div>
+
+
+</body>
+</html>
